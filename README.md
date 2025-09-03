@@ -1,6 +1,6 @@
 # ansible-examples
 
-This repo is a beginner’s guide to Ansible, showing how to use it for automation with simple examples.
+This repo is a beginner’s guide to Ansible, showing how to use it for automation with simple examples. I’ll be updating this repo with the playbooks I’m creating in future.
 
 Ansible is an open-source IT automation tool used to configure systems, deploy applications, and manage infrastructure — all without needing an agent installed on managed hosts.
 <br>

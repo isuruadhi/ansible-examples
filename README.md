@@ -3,6 +3,7 @@
 This repo is a beginner’s guide to Ansible, showing how to use it for automation with simple examples.
 
 Ansible is an open-source IT automation tool used to configure systems, deploy applications, and manage infrastructure — all without needing an agent installed on managed hosts.
+<br>
 
 ## Why Ansible?
 - Agentless  →   No need to install software on managed nodes  

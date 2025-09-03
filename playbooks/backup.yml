@@ -1,0 +1,21 @@
+---
+  -  name: "Backup switch running config"
+     hosts: switches
+     gather_facts: no
+     vars_prompt:
+        -  name: ansible_user
+           prompt: "Enter Username"
+           private: no
+
+        -  name: ansible_password
+           prompt: "Enter Password"
+           private: yes
+
+
+     tasks:
+        -  name: "Backup Config"
+           ios_config:
+              backup: yes
+              backup_options:
+                dir_path: ../exports
+                filename: "{{ansible_host}}"

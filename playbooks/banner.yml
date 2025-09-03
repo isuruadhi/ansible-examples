@@ -1,0 +1,25 @@
+---
+  -  name: "Config login banner"
+     hosts: switches
+     gather_facts: no
+     vars_prompt:
+        -  name: ansible_user
+           prompt: "Enter username"
+           private: no
+
+        -  name: ansible_password
+           prompt: "Enter password"
+           private: yes
+
+     tasks:
+        -  name: "Set banner"
+           ios_banner:
+              banner: login
+              text: |
+                ***************************************
+                *  Pushed through ansible.            *
+                *                                     *
+                *  Authorized access only!            *
+                *  Violators will be prosecuted.      *
+                ***************************************
+              state: present

@@ -1,0 +1,24 @@
+---
+  -  name: "Gather Hostnames of switches"
+     hosts: switches
+     gather_facts: yes
+     serial: 1
+     vars_prompt:
+       -  name: ansible_user
+          prompt: "Username"
+          private: no
+
+       -  name: ansible_password
+          prompt: "Password"
+          private: yes
+
+     tasks:
+      -  name: "Run show hostname"
+         ios_command:
+           commands:
+             - show running-config | include ^hostname
+         register: output
+
+      -  name: "Print Hostname"
+         debug:
+           msg: "{{ ansible_host }} -> {{ output.stdout[0] }}"

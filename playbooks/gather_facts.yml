@@ -1,0 +1,36 @@
+---
+  -  name: "Gather Facts from Switches"
+     hosts: MFP_sw
+     gather_facts: no
+#     ignore_unreachable: yes
+#     max_fail_percentage: 0
+     ignore_errors: yes
+     serial: 1
+     vars_prompt:
+      -  name: ansible_user
+         prompt: "Enter Username"
+         private: no
+
+      -  name: ansible_password
+         prompt: "Enter Password"
+         private: yes
+
+     tasks:
+      -  name: "Collect basic facts"
+         ios_facts:
+         register: switch_facts
+
+#    -  name: "Show hostname"
+#        debug:
+#           msg: "{{ ansible_host }} ->  Hostname -> {{ switch_facts.ansible_facts.ansible_net_hostname}}"
+
+#      -  name: "Show serial number"
+#         debug:
+#           msg: "{{ ansible_host }} ->  Serial Number -> {{switch_facts.ansible_facts.ansible_net_serialnum}} "
+
+      -  name: "Write to csv"
+         lineinfile:
+            path: ../exports/switch_report.csv
+            line: "{{ ansible_host }},{{ switch_facts.ansible_facts.ansible_net_hostname }},{{ switch_facts.ansible_facts.ansible_net_serialnum }},{{ switch_facts.ansible_facts.ansible_net_stacked_models}}"
+            create: yes
+         delegate_to: localhost

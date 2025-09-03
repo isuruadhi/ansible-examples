@@ -58,6 +58,18 @@ ANSIBLE_CONFIG=./ansible.cfg ansible-playbook playbooks/example.yml
 ```
 <br>
 
+## ❓ Whats's included in playbooks folder? ##
+I have mainly forcused on Cisco and Fortinet here. But you can learn more on other products from - [Ansible Galaxy (modules & roles)](https://galaxy.ansible.com/)
+<br>
+| playbook | Description |
+|-----------|-----------|
+| `ping.yml` | Ping all hosts in inventory.ini |
+| `gather_hostname.yml` | Get the hostname of cisco switch |
+| `gather_facts.yml` | Get hostname, IP address and Serial number of cisco switches to a csv file |
+| `backup.yml` | Backup switch configurations to seperate files |
+| `bannar.yml` | Config bannar in each switch in hosts field |
+<br>
+
 ## 📚 Learn More
 - [Installing Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 - [Ansible Documentation](https://docs.ansible.com/)

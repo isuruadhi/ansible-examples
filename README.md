@@ -15,7 +15,7 @@ Ansible is an open-source IT automation tool used to configure systems, deploy a
 
 ## 📂 Repository Structure
 
-<img src="https://github.com/isuruadhi/ansible-examples/blob/main/Repository_Structure.jpeg" width="45%"/>
+<img src="https://github.com/isuruadhi/ansible-examples/blob/main/Repository_Structure.png" width="45%"/>
 
 <br>
 

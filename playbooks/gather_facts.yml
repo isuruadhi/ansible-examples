@@ -1,6 +1,6 @@
 ---
   -  name: "Gather Facts from Switches"
-     hosts: MFP_sw
+     hosts: SITE1_sw
      gather_facts: no
 #     ignore_unreachable: yes
 #     max_fail_percentage: 0

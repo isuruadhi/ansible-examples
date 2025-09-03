@@ -1,0 +1,338 @@
+2025-08-16 09:44:17,943 p=2386599 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 09:44:17,944 p=2386599 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 09:44:18,399 p=2386599 u=ims n=ansible INFO| sw01 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 09:44:18,501 p=2386609 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:13:17,062 p=2386903 u=ims n=ansible INFO| sw2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Unable to negotiate with 10.226.163.195 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1",
+    "unreachable": true
+}
+2025-08-16 10:13:17,146 p=2386903 u=ims n=ansible INFO| fw1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.226.163.193' (ED25519) to the list of known hosts.\r\nims@10.226.163.193: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2025-08-16 10:13:17,309 p=2386903 u=ims n=ansible INFO| sw1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.226.163.194' (RSA) to the list of known hosts.\r\nims@10.226.163.194: Permission denied (publickey,keyboard-interactive,password).",
+    "unreachable": true
+}
+2025-08-16 10:13:43,138 p=2386920 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:13:43,140 p=2386920 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:13:43,509 p=2386920 u=ims n=ansible INFO| sw01 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:13:43,611 p=2386930 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:14:39,023 p=2386970 u=ims n=ansible INFO| fw1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ims@10.226.163.193: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2025-08-16 10:14:39,701 p=2386970 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:14:39,702 p=2386970 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:14:39,705 p=2386970 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:14:40,105 p=2386970 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:14:40,110 p=2386970 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:14:40,215 p=2386989 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:14:40,216 p=2386986 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:16:11,127 p=2387095 u=ims n=ansible INFO| fw1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ims@10.226.163.193: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2025-08-16 10:16:11,784 p=2387095 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:16:11,785 p=2387095 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:16:11,798 p=2387095 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:16:12,203 p=2387095 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:16:12,211 p=2387095 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:16:12,314 p=2387114 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:16:12,314 p=2387111 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:19:04,659 p=2387202 u=ims n=ansible INFO| fw1 | FAILED! => {
+    "msg": "the connection plugin 'ansible.netcomm.httpapi' was not found"
+}
+2025-08-16 10:19:05,437 p=2387202 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:19:05,437 p=2387202 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:19:05,471 p=2387202 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:19:05,813 p=2387202 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:19:05,843 p=2387202 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:19:05,947 p=2387217 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:19:05,947 p=2387220 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:19:40,736 p=2387274 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:19:40,737 p=2387274 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:19:40,740 p=2387274 u=ims n=ansible INFO| platform_type is set to fortinet.fortios.fortios
+2025-08-16 10:19:40,745 p=2387274 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:19:41,168 p=2387274 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:19:41,185 p=2387274 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:19:41,185 p=2387274 u=ims n=ansible INFO| fw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:19:41,288 p=2387294 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:19:41,288 p=2387298 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:19:41,289 p=2387300 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:20:20,804 p=2387379 u=ims n=ansible INFO| platform_type is set to fortinet.fortios.fortios
+2025-08-16 10:20:20,808 p=2387379 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:20:20,809 p=2387379 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:20:20,819 p=2387379 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:20:21,239 p=2387379 u=ims n=ansible INFO| fw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:20:21,247 p=2387379 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:20:21,251 p=2387379 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:20:21,353 p=2387397 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:20:21,353 p=2387403 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:20:21,354 p=2387400 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:20:38,635 p=2387479 u=ims n=ansible INFO| fw1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ims@10.226.163.193: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2025-08-16 10:20:39,318 p=2387479 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:20:39,318 p=2387479 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:20:39,330 p=2387479 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:20:39,720 p=2387479 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:20:39,721 p=2387479 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:20:39,823 p=2387498 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:20:39,823 p=2387495 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:21:00,082 p=2387550 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:21:00,083 p=2387550 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:21:00,088 p=2387550 u=ims n=ansible INFO| platform_type is set to fortinet.fortios.fortios
+2025-08-16 10:21:00,110 p=2387550 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:21:00,491 p=2387550 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:21:00,503 p=2387550 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:21:00,525 p=2387550 u=ims n=ansible INFO| fw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:21:00,626 p=2387571 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:21:00,627 p=2387574 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:21:00,630 p=2387568 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:25:18,481 p=2388425 u=ims n=ansible INFO| platform_type is set to fortinet.fortios.fortios
+2025-08-16 10:25:18,504 p=2388425 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:25:18,505 p=2388425 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 10:25:18,509 p=2388425 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 10:25:18,923 p=2388425 u=ims n=ansible INFO| sw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:25:18,924 p=2388425 u=ims n=ansible INFO| fw1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:25:18,934 p=2388425 u=ims n=ansible INFO| sw2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-16 10:25:19,037 p=2388449 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:25:19,037 p=2388444 u=ims n=ansible INFO| shutdown complete
+2025-08-16 10:25:19,037 p=2388446 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:13:53,795 p=2390593 u=ims n=ansible WARNING| [WARNING]: Unable to parse /home/ims/Desktop/Ansible/inventory.ini as an inventory source
+
+2025-08-16 11:13:53,796 p=2390593 u=ims n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-16 11:13:53,800 p=2390593 u=ims n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-08-16 11:13:54,022 p=2390593 u=ims n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: switches
+
+2025-08-16 11:13:54,023 p=2390593 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:13:54,023 p=2390593 u=ims n=ansible INFO| skipping: no hosts matched
+2025-08-16 11:13:54,023 p=2390593 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:14:06,293 p=2390602 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:14:06,303 p=2390602 u=ims n=ansible INFO| TASK [Gathering Facts] **********************************************************************************************************************************************************************
+2025-08-16 11:14:07,063 p=2390602 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:14:07,064 p=2390602 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 11:14:07,071 p=2390602 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:14:08,371 p=2390616 u=ims n=p=2390616 u=ims | paramiko [10.226.163.194] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:14:08,425 p=2390619 u=ims n=p=2390619 u=ims | paramiko [10.226.163.195] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:14:08,467 p=2390602 u=ims n=ansible INFO| fatal: [sw1]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:14:08,672 p=2390602 u=ims n=ansible INFO| fatal: [sw2]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:14:08,673 p=2390602 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:14:08,673 p=2390602 u=ims n=ansible INFO| sw1                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:14:08,673 p=2390602 u=ims n=ansible INFO| sw2                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:14:38,421 p=2390616 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:14:38,522 p=2390616 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:14:38,625 p=2390619 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:14:38,727 p=2390619 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:15:33,350 p=2390745 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:15:33,359 p=2390745 u=ims n=ansible INFO| TASK [Gathering Facts] **********************************************************************************************************************************************************************
+2025-08-16 11:15:34,103 p=2390745 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:15:34,105 p=2390745 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 11:15:34,109 p=2390745 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:15:35,399 p=2390762 u=ims n=p=2390762 u=ims | paramiko [10.226.163.194] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:15:35,453 p=2390761 u=ims n=p=2390761 u=ims | paramiko [10.226.163.195] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:15:35,496 p=2390745 u=ims n=ansible INFO| fatal: [sw1]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:15:35,929 p=2390745 u=ims n=ansible INFO| fatal: [sw2]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:15:35,931 p=2390745 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:15:35,931 p=2390745 u=ims n=ansible INFO| sw1                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:15:35,931 p=2390745 u=ims n=ansible INFO| sw2                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:16:05,452 p=2390762 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:16:05,554 p=2390762 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:16:05,885 p=2390761 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:16:05,987 p=2390761 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:18:16,954 p=2390849 u=ims n=ansible ERROR| ERROR! the field 'hosts' is required but was not set
+2025-08-16 11:19:18,281 p=2390862 u=ims n=ansible ERROR| ERROR! 'host' is not a valid attribute for a Play
+
+The error appears to be in '/home/ims/Desktop/Ansible/Project1/ping.yml': line 2, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  - name: "Test Network Connection"
+    ^ here
+
+2025-08-16 11:19:46,167 p=2390875 u=ims n=ansible ERROR| ERROR! 'host' is not a valid attribute for a Play
+
+The error appears to be in '/home/ims/Desktop/Ansible/Project1/ping.yml': line 2, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  - name: "Test Network Connection"
+    ^ here
+
+2025-08-16 11:20:12,080 p=2390899 u=ims n=ansible ERROR| ERROR! 'host' is not a valid attribute for a Play
+
+The error appears to be in '/home/ims/Desktop/Ansible/Project1/ping.yml': line 2, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  -  name: "Test Network Connection"
+     ^ here
+
+2025-08-16 11:20:50,810 p=2390914 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:20:50,819 p=2390914 u=ims n=ansible INFO| TASK [Gathering Facts] **********************************************************************************************************************************************************************
+2025-08-16 11:20:51,587 p=2390914 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:20:51,589 p=2390914 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 11:20:51,589 p=2390914 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:20:52,902 p=2390931 u=ims n=p=2390931 u=ims | paramiko [10.226.163.194] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:20:52,950 p=2390930 u=ims n=p=2390930 u=ims | paramiko [10.226.163.195] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:20:52,999 p=2390914 u=ims n=ansible INFO| fatal: [sw1]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:20:53,414 p=2390914 u=ims n=ansible INFO| fatal: [sw2]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:20:53,415 p=2390914 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:20:53,415 p=2390914 u=ims n=ansible INFO| sw1                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:20:53,415 p=2390914 u=ims n=ansible INFO| sw2                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:21:22,952 p=2390931 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:21:23,054 p=2390931 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:21:23,368 p=2390930 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:21:23,470 p=2390930 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:21:58,773 p=2390985 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:21:58,782 p=2390985 u=ims n=ansible INFO| TASK [Gathering Facts] **********************************************************************************************************************************************************************
+2025-08-16 11:21:59,532 p=2390985 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:21:59,534 p=2390985 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 11:21:59,537 p=2390985 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:22:00,868 p=2391002 u=ims n=p=2391002 u=ims | paramiko [10.226.163.195] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:22:00,875 p=2391000 u=ims n=p=2391000 u=ims | paramiko [10.226.163.194] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:22:00,970 p=2390985 u=ims n=ansible INFO| fatal: [sw1]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:22:01,312 p=2390985 u=ims n=ansible INFO| fatal: [sw2]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:22:01,313 p=2390985 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:22:01,313 p=2390985 u=ims n=ansible INFO| sw1                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:22:01,313 p=2390985 u=ims n=ansible INFO| sw2                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:22:07,167 p=2391055 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:22:07,177 p=2391055 u=ims n=ansible INFO| TASK [Gathering Facts] **********************************************************************************************************************************************************************
+2025-08-16 11:22:07,925 p=2391055 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:22:07,926 p=2391055 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 11:22:07,940 p=2391055 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:22:09,314 p=2391072 u=ims n=p=2391072 u=ims | paramiko [10.226.163.195] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:22:09,316 p=2391069 u=ims n=p=2391069 u=ims | paramiko [10.226.163.194] INFO| Connected (version 1.99, client Cisco-1.25)
+2025-08-16 11:22:09,411 p=2391055 u=ims n=ansible INFO| fatal: [sw1]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:22:09,760 p=2391055 u=ims n=ansible INFO| fatal: [sw2]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"cisco.ios.ios_facts": {"failed": true, "invocation": {"module_args": {"available_network_resources": false, "gather_network_resources": null, "gather_subset": ["min"]}}, "msg": "No authentication methods available"}}, "msg": "The following modules failed to execute: cisco.ios.ios_facts\n"}
+2025-08-16 11:22:09,762 p=2391055 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:22:09,762 p=2391055 u=ims n=ansible INFO| sw1                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:22:09,762 p=2391055 u=ims n=ansible INFO| sw2                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:22:30,925 p=2391000 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:22:31,026 p=2391000 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:22:31,267 p=2391002 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:22:31,368 p=2391002 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:22:34,369 p=2391127 u=ims n=ansible INFO| PLAY [Test Network Connection] **************************************************************************************************************************************************************
+2025-08-16 11:22:34,378 p=2391127 u=ims n=ansible INFO| TASK [Ping] *********************************************************************************************************************************************************************************
+2025-08-16 11:22:35,145 p=2391127 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:22:35,147 p=2391127 u=ims n=ansible WARNING| [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2025-08-16 11:22:35,156 p=2391127 u=ims n=ansible INFO| network_os is set to cisco.ios.ios
+2025-08-16 11:22:35,178 p=2391127 u=ims n=ansible INFO| fatal: [sw1]: FAILED! => {"changed": false, "msg": "missing required arguments: dest"}
+2025-08-16 11:22:35,178 p=2391127 u=ims n=ansible INFO| fatal: [sw2]: FAILED! => {"changed": false, "msg": "missing required arguments: dest"}
+2025-08-16 11:22:35,182 p=2391127 u=ims n=ansible INFO| PLAY RECAP **********************************************************************************************************************************************************************************
+2025-08-16 11:22:35,182 p=2391127 u=ims n=ansible INFO| sw1                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:22:35,182 p=2391127 u=ims n=ansible INFO| sw2                        : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-16 11:22:35,280 p=2391144 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:22:35,282 p=2391142 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:22:39,366 p=2391069 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:22:39,467 p=2391069 u=ims n=ansible INFO| shutdown complete
+2025-08-16 11:22:39,715 p=2391072 u=ims n=ansible INFO| persistent connection idle timeout triggered, timeout value is 30 secs.
+See the timeout setting options in the Network Debug and Troubleshooting Guide.
+2025-08-16 11:22:39,816 p=2391072 u=ims n=ansible INFO| shutdown complete

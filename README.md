@@ -6,20 +6,20 @@ Ansible is an open-source IT automation tool used to configure systems, deploy a
 <br>
 <br>
 
-## Why Ansible?
+## 🌟 Why Ansible?
 - Agentless  →   No need to install software on managed nodes  
 - Simple     →   Playbooks written in human-readable YAML  
 - Powerful   →   Manage servers, switches, firewalls, containers, and cloud infra  
 - Scalable   →   Works for 1 host or 1000+  
 <br>
 
-## Repository Structure
+## 📂 Repository Structure
 
 <img src="https://github.com/isuruadhi/ansible-examples/blob/main/Repository_Structure.jpeg" width="45%"/>
 
 <br>
 
-## What are these files?
+## ⚙️ What are these files?
 
 `ansible.cfg`
 - Tells Ansible how to behave.
@@ -35,7 +35,7 @@ Ansible is an open-source IT automation tool used to configure systems, deploy a
 - Define tasks to run on hosts.
 <br>
 
-## Running Ansible
+## ▶️ Running Ansible
 1. **Test Connection**
 Ping all hosts in your inventory:
 ```bash
@@ -58,7 +58,7 @@ ANSIBLE_CONFIG=./ansible.cfg ansible-playbook playbooks/example.yml
 ```
 <br>
 
-##  Learn More
+## 📚 Learn More
 - [Installing Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 - [Ansible Documentation](https://docs.ansible.com/)
 - [Ansible Galaxy (modules & roles)](https://galaxy.ansible.com/)
